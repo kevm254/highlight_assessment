@@ -1,0 +1,7 @@
+.headerContainer {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 500;
+    border-bottom: 2px solid var(--secondary-font-color);
+}

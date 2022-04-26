@@ -1,0 +1,29 @@
+.taskContainer {
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+} 
+
+.taskLeft, .taskRight {
+    text-align: left;
+}
+
+
+.taskName, .taskTime {
+    font-weight: 700;
+    color: var(--primary-font-color);
+}
+
+.taskDate {
+    color: var(--secondary-font-color);
+    font-weight: 500;
+}
