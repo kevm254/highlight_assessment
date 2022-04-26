@@ -1,0 +1,21 @@
+.sessionContainer {
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.startNowBtn {
+    background-color: var(--red-default);
+    font-size: 1.5rem;
+    font-weight:500;
+    padding: 10px 30px;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    margin-top: 5px;
+}

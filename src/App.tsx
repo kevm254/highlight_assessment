@@ -21,7 +21,7 @@ function App() {
           setUsers(res?.data?.data?.allUsers);
         }
       });
-  });
+  }, []);
 
   return (
     <BrowserRouter>

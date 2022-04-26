@@ -3,4 +3,5 @@ export interface TaskModel {
     date: string;
     activityLength: string;
     status: string;
+    routine: string;
 }

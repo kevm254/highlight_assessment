@@ -7,16 +7,16 @@ const Task = ((props: TaskProps) => {
         <div className={styles.taskContainer}>
             <div className={styles.taskLeft}>
                 <div className={styles.taskName}>
-                    {props?.userData?.name || ''}
+                    {props?.userData?.routine || ''}
                 </div>
                 <div className={styles.taskDate}>
-                    {props.userData.timestamp || ''}
+                    {props?.userData?.timestamp || ''}
                 </div>
             </div>
 
             <div className={styles.taskRight}>
-                <div className={styles.taskTime}>{props.userData.name}</div>
-                <div className={styles.taskStatus}>{props.userData.status}</div>
+                <div className={styles.taskTime}>{props?.userData?.duration}</div>
+                <div className={styles.taskStatus}>{props.userData.status || ''}</div>
             </div>
         </div>
     );

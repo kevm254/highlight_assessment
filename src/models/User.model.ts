@@ -3,4 +3,6 @@ export interface UserModel {
     name: string;
     timestamp: string;
     status: string;
+    duration: string;
+    routine: string;
 }
